@@ -1,0 +1,73 @@
+.logo {text-align: center;
+    color: ghostwhite;
+    background-color: darkslategray;
+    font-family: 'Archivo', sans-serif;
+} 
+body{
+    background-color:white;
+}
+.container{
+    background-color: gainsboro;
+}
+[class*="col-6"] {
+    width: 100%;
+  }
+.navbar-brand {
+    position: absolute;
+    text-align: center;
+}
+nav {
+    text-align: center;
+    font-family: 'Archivo', sans-serif;
+
+}
+li {
+    border-right: 1px solid #bbb;
+}  
+
+li:last-child {
+    border-right: none;
+}
+
+.navbar .navbar-nav {
+    float: none;
+    text-align: center;
+}
+.container {
+    margin-top: 20px;
+    margin-bottom: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+footer{
+    background-color: darkslategrey;
+    color: ghostwhite;
+    text-align: center;
+    padding: 100px;
+}
+h2{
+    font-family: 'Archivo', sans-serif;
+    color: darkslategray;
+    font-weight: bold;
+    border-bottom: 2px solid gray;
+}
+.space {
+    width: 45%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+.card-body{
+    background-color: gainsboro;
+    justify-content: end;
+
+}
+.text-info {
+    color: #2f4f4f!important
+}
