@@ -65,9 +65,22 @@ h2{
 }
 .card-body{
     background-color: gainsboro;
-    justify-content: end;
+    text-align: center;
 
 }
 .text-info {
     color: #2f4f4f!important
+}
+.col-md-6 {
+    display: inline-block
+}
+.row {
+    justify-content: center;
+}
+a {
+    /* color: white; */
+    color: inherit;
+}
+.active {
+    color: white
 }
